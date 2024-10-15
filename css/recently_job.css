@@ -1,0 +1,134 @@
+.applied-jobs,
+.posted-jobs,
+.job-application {
+    margin: 0 12%;
+    margin-bottom: 15%;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.table th:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.table th {
+    padding: 10px 0px;
+    text-align: left;
+    border-bottom: none;
+    font-weight: bold;
+    padding-left: 20px;
+    background-color: #f6faff;
+
+}
+
+
+.table td {
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    vertical-align: middle;
+    padding-top: 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+.job-application .table td {
+    padding-bottom: 0;
+}
+
+.posted-jobs .table tbody tr:hover,
+.applied-jobs .table tbody tr:hover {
+    border-bottom: none;
+    border-radius: 5px;
+    box-shadow: 0 0px 4px #4883ff;
+    transform: scale(1.01);
+}
+
+.blue-button a {
+    background-color: white;
+    color: #4883ff;
+}
+
+
+
+.table tbody tr:hover .blue-button a {
+    background-color: #4883ff;
+    color: white !important;
+    border: none;
+}
+
+.table tbody tr .blue-button a:hover {
+    color: white !important;
+}
+
+.contract {
+    margin-left: 15px;
+    padding: 5px 15px;
+    background-color: #e7f0fa;
+    border-radius: 30px;
+    color: #4883ff;
+}
+
+.text-success {
+    color: #14a334;
+}
+
+
+/*  card */
+
+.card {
+    height: 285px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border: none;
+}
+
+.img-card {
+    width: 82px;
+    height: 80px;
+}
+
+.img-card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.card-details {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.content-card {
+    margin: 0px 20px;
+    margin-bottom: 15px;
+}
+
+.card .card-body ul {
+    list-style: disc;
+}
+
+.card .card-body ul li:not(:last-child) p {
+    margin-bottom: 0;
+}
+
+
+
+.download-cv a {
+    color: #4883ff;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.download-cv .fa-download {
+    color: #4883ff;
+    font-size: 20px;
+}

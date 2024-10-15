@@ -1,0 +1,27 @@
+.post-job {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.post-job form {
+    width: 70%;
+    margin: auto;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+.post-job form input,
+.post-job form textarea {
+    width: 100% !important;
+    padding: 10px !important;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.post-job form textarea.form-control {
+    min-height: 0;
+    height: 80px;
+}
+

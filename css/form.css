@@ -1,0 +1,28 @@
+
+.container-form {
+    width: 70%;
+}
+
+.country-code {
+    width: 32%;
+    padding-left: 0;
+    text-align: center;
+    padding-right: 0;
+
+}
+
+.content-phone {
+    display: flex;
+}
+
+.gender {
+    display: flex;
+    justify-content: space-around;
+}
+
+table{
+    width: 100%;
+}
+td {
+    padding: 0 10px;
+}

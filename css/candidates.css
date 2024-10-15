@@ -1,0 +1,124 @@
+.candidates {
+    padding: 30px 0;
+}
+
+.candidates .card-filter {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #e5effd;
+
+
+}
+
+.section-right .card-candidates {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #e5effd;
+    margin-bottom: 20px;
+}
+
+.candidates .section-right .card-candidates:hover {
+    border: 1px solid #4883ff;
+    box-shadow: 0 0 10px #e5effd;
+
+}
+
+.candidates .section-right .card-candidates .blue-button a:hover {
+    border: none;
+    color: #4883ff;
+    background-color: #e5effd;
+
+}
+
+.section-right .card-candidates p {
+    margin: auto;
+}
+
+.section-right .card-candidates .img-card {
+    width: 90px;
+    height: 90px;
+}
+
+.section-right .card-candidates .img-card img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+
+/*  page overview  */
+
+.overview {
+    margin: 10% 0;
+}
+
+.overview .section-right .overview-details .card {
+    width: 45%;
+    border: none;
+    background-color: #e7f0fa;
+}
+
+.overview .section-right .overview-details .card .card-details .card-icon {
+    width: 20%;
+    background-color: white;
+    margin: auto;
+    margin-right: 15px;
+    border-radius: 7px;
+    height: 50px;
+    text-align: center;
+    padding: 5%;
+}
+
+.overview .section-left {
+    width: 70%;
+}
+
+.overview .section-left a {
+    text-decoration: none;
+    background-color: #e7f0fa;
+    margin-bottom: 10px;
+    padding: 0px 20px;
+    padding-top: 9px;
+}
+
+.overview .section-right .card-candidates {
+    background-color: #e05151;
+}
+
+.overview .section-left::before {
+    content: "";
+    position: absolute;
+    top: 32%;
+    left: 27.1%;
+    width: 1px;
+    height: 57%;
+    background-color: #cdcdcd;
+    z-index: -1;
+}
+
+
+.overview .section-right .card-candidates .blue-button a {
+    border: none;
+    color: #e05151;
+    background-color: #e5effd;
+}
+
+.overview .section-right .card-candidates .blue-button a:hover {
+    color: white;
+    background-color: rgba(252, 117, 117, 0.9);
+
+}
+
+.overview .section-right .overview-details .card .card-details .card-icon .icon {
+    font-size: 23px;
+}
+
+.icon {
+    color: #4c8ed9;
+    font-size: 20px;
+}
